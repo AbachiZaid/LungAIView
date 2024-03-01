@@ -1,0 +1,76 @@
+.card {
+  display: flex;
+  height: 150px;
+  width: 405px;
+  background: #232b39;
+  border-radius: 10px;
+  padding-left: 20px;
+  box-shadow: 1px 1px 2px 1px hsla(218, 24%, 24%, 0.89);
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  left: 18px;
+  bottom: 15px;
+  border-bottom: 1.4px dashed #707070;
+  width: 92%;
+}
+
+.image {
+  background: #232b39;
+  height: 120px;
+  width: 165px;
+}
+
+img {
+  height: 120px;
+  width: 165px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+/* span {
+  background-color: transparent;
+  padding-left: 10px;
+} */
+
+.infos {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: none;
+}
+
+.username span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #71a2ff;
+  background: #232b39;
+  padding: 10px;
+}
+
+.username {
+  margin-top: -30px;
+}
+
+.job span {
+  color: #707070;
+  font-size: 1.25rem;
+  background: #232b39;
+  padding: 10px;
+}
+
+.job {
+  margin-top: 10px;
+}
+/* ************************************************************************* */
+
+@media only screen and (max-width: 1440px) {
+  /* .card {
+    width: 420px;
+  } */
+}

@@ -1,0 +1,11 @@
+# Ignoriere node_modules
+node_modules/
+
+# Ignoriere Umgebungsvariablen-Dateien
+.env
+
+# Ignoriere Log-Dateien
+*.log
+
+# Andere spezifische Ignorierungen
+*.tmp

@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 270px;
+  width: 799px;
+  border-radius: 10px;
+  background: #232b39;
+  box-shadow: 1px 1px 1px 1px hsla(218, 24%, 24%, 0.89);
+}
+
+.chartContainer {
+  position: relative;
+  height: 230px;
+  width: 230px;
+}
+
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.legend {
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #919daf;
+  margin-left: -90px;
+}
+.legendTitle {
+  margin-bottom: 1rem;
+  margin-left: -90px;
+}
+
+.legendTitle span {
+  color: #71a2ff;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.legendColor {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.percentage {
+  padding-left: 10px;
+}
+
+.circle1 {
+  border-color: #d971ff; /* Farbe für 20-35 */
+}
+.circle2 {
+  border-color: #71a2ff; /* Farbe für 35-50 */
+}
+.circle3 {
+  border-color: #ffa871; /* Farbe für 50-65 */
+}
+.circle4 {
+  border-color: #66dd6f; /* Farbe für 65-80 */
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* Größe der Kreise */
+.circle1 {
+  width: 100%;
+  height: 100%;
+}
+.circle2 {
+  width: 75%;
+  height: 75%;
+}
+.circle3 {
+  width: 50%;
+  height: 50%;
+}
+.circle4 {
+  width: 25%;
+  height: 25%;
+}

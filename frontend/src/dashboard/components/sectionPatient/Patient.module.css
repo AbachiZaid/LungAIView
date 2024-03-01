@@ -1,0 +1,162 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 399px;
+  width: 280px;
+  border-radius: 10px;
+  background: #232b39;
+  box-shadow: 1px 1px 1px 1px hsla(218, 24%, 24%, 0.89);
+  padding-left: 20px;
+}
+
+span {
+  background: transparent;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #71a2ff;
+  margin-top: 30px;
+}
+
+.datum {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+.datum span {
+  color: #707070;
+  font-size: 12px;
+  /* font-weight: 600; */
+}
+
+.datum::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0;
+  bottom: 0px;
+  border-bottom: 1px dashed #707070;
+  width: 255px;
+}
+.patientInfo {
+  margin-top: 10px;
+}
+
+.patientName {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background: #0e172a;
+  opacity: 0.8;
+  height: 17px;
+  width: 240px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 12px;
+}
+
+.patientName span {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: #71a2ff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.logo {
+  color: #7583d1;
+  font-size: 17px;
+  padding-left: 5px;
+}
+
+.krankheit {
+  display: flex;
+  /* justify-content: flex-start; */
+  /* background: #f7f7f7; */
+  /* height: 20px;
+  width: 300px; */
+  /* padding-top: 5px; */
+  /* padding-bottom: 5px; */
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+
+.krankheit span {
+  color: #707070;
+  font-size: 14px;
+}
+
+.patientStatus {
+  display: flex;
+}
+
+.status {
+  display: flex;
+  padding-left: 20px;
+  /* padding-top: 5px; */
+  padding-bottom: 5px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.status span {
+  color: #707070;
+  font-size: 14px;
+}
+
+.colorRed {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #d59e99;
+  margin-left: 10px;
+}
+
+.colorGreen {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #66dd6f;
+  margin-left: 10px;
+}
+.colorGelb {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #ced599;
+  margin-left: 10px;
+}
+
+.status::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0;
+  bottom: -1px;
+  border-bottom: 1px dashed #707070;
+  width: 255px;
+}
+/* ************************************************************************************** */
+
+@media only screen and (max-width: 1440px) {
+  /* .card {
+    width: 270px;
+    height: 515px;
+  }
+
+  .datum::after {
+    width: 250px;
+  }
+
+  .status::after {
+    width: 250px;
+  } */
+}

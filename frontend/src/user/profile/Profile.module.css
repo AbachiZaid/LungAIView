@@ -1,0 +1,100 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  height: 580px;
+  background: #232b39;
+  box-shadow: 1px 1px 1px 1px hsla(218, 24%, 24%, 0.89);
+  border-radius: 15px;
+  margin-top: 50px;
+  position: relative;
+}
+.userImage {
+  position: relative;
+  margin-left: 90px;
+}
+
+.userImage img {
+  width: 450px;
+  height: 350px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+  height: 320px;
+  margin-left: 90px;
+}
+
+.label {
+  padding-left: 10px;
+}
+
+.label :first-child {
+  padding-right: 10px;
+  font-size: 29px;
+  color: #c9c9c9;
+}
+
+.label span {
+  font-size: 29px;
+  color: #71a2ff;
+}
+
+.update {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+/* *************************** Title ******************************** */
+.title {
+  position: absolute;
+  top: 25px;
+  left: 90px;
+}
+.title span {
+  font-size: 35px;
+  color: #71a2ff;
+}
+.title :last-child {
+  margin-top: 15px;
+  border-top: 2px solid #c9c9c9;
+  width: 860px;
+}
+/* *************************** Username ******************************** */
+.username {
+  font-size: 23px;
+  color: #707070;
+  font-weight: 300;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+/* *************************** E-Mail ******************************** */
+
+.email {
+  font-size: 23px;
+  color: #707070;
+  font-weight: 300;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+/* *************************** Fach ******************************** */
+
+.fach {
+  font-size: 23px;
+  color: #707070;
+  font-weight: 300;
+  margin-left: 10px;
+  padding-top: 10px;
+}

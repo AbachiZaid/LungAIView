@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.cards {
+  display: flex;
+  width: 170px;
+  position: relative;
+}
+
+.userImage img {
+  height: 40px;
+  width: 50px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+/* span {
+    background-color: transparent;
+    padding-left: 10px;
+  } */
+
+.info {
+  /* background: #ffffff; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: none;
+}
+
+.name span {
+  color: #707070;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.name {
+  margin-top: 40px;
+}
+
+.jobs span {
+  color: #707070;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.listButton {
+  position: absolute;
+  top: -10px;
+  left: 155px;
+  /* background-color: blanchedalmond; */
+}
+
+.listButton h1 {
+  font-size: 60px;
+  font-weight: 100;
+  color: #cfcfcf;
+}
+
+/* .job {
+  margin-top: 10px;
+} */
+
+/* ***************************************** Dropdwon List *********************************** */
+.dropDownList {
+  display: flex;
+  width: 210px;
+  height: 250px;
+  background-color: #fbfbfb;
+  border-radius: 10px;
+  z-index: 9999;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  margin-left: -5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #71a2ff;
+  font-size: 21px;
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+/* .list :first-child :last-child {
+  margin-bottom: 20px;
+} */

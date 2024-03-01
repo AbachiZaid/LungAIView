@@ -1,0 +1,96 @@
+.container {
+  /* margin: auto; */
+  padding: 20px;
+  background: #232b39;
+  box-shadow: 1px 1px 1px 1px hsla(218, 24%, 24%, 0.89);
+  border-radius: 10px;
+  height: 230px;
+  width: 260px;
+  position: relative;
+}
+
+.title {
+  color: #71a2ff;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-left: -10px;
+}
+
+.progressBarContainer {
+  position: absolute;
+  top: 50px;
+  position: relative;
+}
+
+.label {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #969595;
+  position: absolute;
+  top: -4px;
+  left: -10px;
+}
+
+.progressBarBackground {
+  background-color: #0e172a;
+  border-radius: 9999px;
+  height: 15px;
+  width: 140px;
+  overflow: hidden;
+  margin-left: 65px;
+  margin-bottom: 50px;
+}
+
+.progressBarFill {
+  height: 15px;
+  border-radius: 9999px;
+}
+
+.value {
+  text-align: right;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #969595;
+  position: absolute;
+  top: -5px;
+  right: 8px;
+}
+
+.blue {
+  background-color: #71a2ff;
+}
+
+.red {
+  background-color: #d59e99;
+}
+
+/* ************************************************************************* */
+
+/* @media only screen and (max-width: 1440px) {
+  .container {
+    width: 250px;
+  }
+  .label {
+    font-size: 0.9rem;
+    top: 0px;
+    left: 0;
+  }
+
+  .progressBarBackground {
+    height: 15px;
+    width: 180px;
+  }
+
+  .progressBarFill {
+    height: 15px;
+  }
+
+  .value {
+    font-size: 1rem;
+    top: -1px;
+    right: 90px;
+  }
+} */

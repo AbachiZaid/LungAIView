@@ -1,0 +1,160 @@
+.registrieren {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loader-container {
+  height: 500px;
+  /* margin-top: 260px; */
+}
+
+.singup-header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.singup-icon {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #c471ed;
+  background-color: #c471ed;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.singup-title h2 {
+  font-size: 35px;
+  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.singup-form {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 420px;
+}
+
+.singup input:first-child {
+  background: #010b13;
+  width: 200px;
+  height: 65px;
+  border: 3px solid;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: 0px solid #12c2e9;
+  box-shadow: #12c2e9 0px 0px 2px;
+}
+.singup input {
+  padding-left: 10px;
+  font-size: 19px;
+  color: aliceblue;
+  background: #010b13;
+  width: 420px;
+  height: 65px;
+  border: 0px solid #12c2e9;
+  border-radius: 5px;
+  box-shadow: #12c2e9 0px 0px 2px;
+}
+
+.singup input::placeholder {
+  color: #a4a7b1;
+  margin-left: 10px;
+}
+
+.singup label:first-child {
+  padding-right: 0px;
+}
+
+.singup-btn button {
+  cursor: pointer;
+  font-size: 25px;
+  color: #a4a7b1;
+  background-color: #010b13;
+  width: 430px;
+  height: 55px;
+  border: 0px solid #12c2e9;
+  border-radius: 5px;
+  box-shadow: #12c2e9 0px 0px 2px;
+}
+
+.errors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: azure; */
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: #f64f59 0px 0px 5px;
+  width: 420px;
+  padding: 15px;
+}
+.error h3 {
+  color: #f64f59;
+}
+
+.check-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: azure; */
+  border: 0px solid;
+  border-radius: 5px;
+  box-shadow: #12c2e9 0px 0px 5px;
+  width: 420px;
+  height: 150px;
+  padding: 15px;
+}
+.check h3 {
+  color: #12c2e9;
+}
+
+.go-home-btn button {
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  font-size: 19px;
+  color: aliceblue;
+  background: #010b13;
+  width: 420px;
+  height: 65px;
+  border: 0px solid #12c2e9;
+  border-radius: 5px;
+  box-shadow: #12c2e9 0px 0px 2px;
+}
+
+.forget-password {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+}
+
+.forget-password h1 {
+  font-size: 14px;
+  color: #a4a7b1;
+}

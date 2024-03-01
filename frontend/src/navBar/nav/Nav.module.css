@@ -1,0 +1,122 @@
+.navBar {
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+  margin-left: 50px;
+  position: relative;
+}
+li {
+  list-style: none;
+}
+.logo {
+  font-size: 31px;
+  font-weight: bolder;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#12c2e9),
+    color-stop(#c471ed),
+    to(#f64f59)
+  );
+  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dashboard {
+  color: #12c2e9;
+  font-size: 21px;
+  font-weight: bold;
+}
+.patienten {
+  color: #12c2e9;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.bildanalyse {
+  color: #12c2e9;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.line {
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  width: 1120px;
+  border-bottom: 1px dashed #707070;
+}
+
+/* ::::::::::::::::::::::::::::::::::::::: Search Bar ::::::::::::::::::::::::::::::::::::::: */
+.search {
+  width: 180px;
+  position: absolute;
+  top: 28px;
+  left: 780px;
+}
+.search-container {
+  max-width: 300px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  height: 4px;
+  padding: 10px 10px 10px 35px;
+  font-size: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: none;
+  transition: border 0.2s ease-in-out;
+}
+
+.search-container input[type="text"]:focus {
+  border-color: #a2a2a2;
+}
+
+/* FontAwesome Icon Style */
+.search-container {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a2a2a2;
+  font-size: 18px;
+}
+.fa-search {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a2a2a2;
+  font-size: 12px;
+}
+
+.search-container .fa-search::before {
+  pointer-events: none;
+}
+
+.fa-search::before {
+  pointer-events: none;
+}
+
+/* ::::::::::::::::::::::::::::::::::::::: Konto ::::::::::::::::::::::::::::::::::::::: */
+
+.konto {
+  position: absolute;
+  top: -40px;
+  left: 228px;
+}
